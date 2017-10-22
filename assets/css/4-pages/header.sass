@@ -1,22 +1,131 @@
 .hero
-    height: 100vh
-    position: relative
+    height: 120vh
     background: url('../img/back-hero.jpg')
     
+    .nav-bar
+        width: 80vw
+        margin-left: 10vw
     
     .nav-list
-        margin-top: -50px
-    
         float: right
         a
-            padding: 1em
+            padding: 0.8em
+            padding-top: 2em
+            font-size: 1.03em
+            font-weight: 600
             display: inline-block
             text-transform: uppercase
+            font-family: 'Crimson Text', serif
+            
+            color: white
+            &:hover,&:focus
+              border-bottom: 2px solid #e74c3c
+              color: #e74c3c
+            
         .home
-            border: 1px solid black
+            border-bottom: 2px solid #e74c3c
+            color: #e74c3c
+            
+             
+            
+
+            
         
     .logo
         width: 150px
         height: 50px
+        margin-top: 10px
         background: pink
+        position: absolute  
+        
+    
+        
+    .hero-main
+        position: absolute
+        width: 80vw
+        text-align: center
+        
+        .para
+            color: white
+            font-family: 'Crimson Text', serif
+            opacity: 0.8
+          
+        .top
+            font-size: 2em
+            margin: 0
+            line-height: 2
+            
+        .banner
+            margin: 0
+            font-weight: 200
+            letter-spacing: 2px
+            margin-bottom: 20px
+            color: white
+            font-family: 'Crimson Text', serif
+            font-size: 5em
+            text-transform: uppercase
+            
+        .bottom
+            width: 50vw
+            margin-top: 10px
+            font-size: 1.2em
+            
+        .sep
+            width: 10px
+            height: 10px
+            background: #e74c3c
+            margin: 20px auto
+            position: relative
+            display: inline-block
+            border-radius: 50%
+            &::before, &::after
+              content: ''
+              width: 80px
+              position: absolute
+              display: block
+              height: 1px
+              background: white
+            &::before
+              right: 30px
+              top: 5px
+            &::after
+              left: 30px
+              top: 5px
+            
+        .btns-wrap
+            margin-top: 12vh
+            .btn
+                padding: 1em 3rem
+                color: white
+                display: inline-block
+                font-family: 'Open Sans', sans-serif
+                text-transform: uppercase
+                &:hover
+                  cursor: pointer
+            .contact
+                margin-right: 10px
+                border: 1px solid #e74c3c
+                background: #e74c3c
+                &:hover
+                  border: 2px solid white
+            .learn-more
+                border: 1px solid white
+                &:hover
+                  border: 1px solid #e74c3c
+                  background: #e74c3c
+                  border-bottom: 2px solid white
+                
+        .cross-line
+            margin-top: 50vh
+                
+
+                
+   
+            
+            
+            
+
+         
+            
+          
         
